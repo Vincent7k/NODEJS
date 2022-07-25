@@ -1,0 +1,42 @@
+{{>partials/header}}
+<!DOCTYPE html>
+<html>
+  
+</head>
+  
+<body style="text-align: center">
+  
+    <form>
+        name:
+        <input type="text" 
+            placeholder="Enter your name here--" />
+        <br />
+
+        age:
+        <input type="int" 
+            placeholder="Enter your number here--" />
+        <br />
+  
+        address:
+        <input type="text" 
+            placeholder="Enter your  permanent Address" />
+        <br />
+  
+        phone:
+        <input type="tel" 
+            placeholder="Enter phone number" />
+        <br />
+        <br />
+          
+        <button>Send</button>
+    </form>
+</body>
+
+
+{{#name}}
+Olá seu nome é{{name}}
+{{/name}}
+
+  
+</html>
+{{>partials/footer}}
